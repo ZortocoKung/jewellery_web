@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMÉ Jewelry | Sempitile Collection</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#3A2421',
+                            darker: '#2E1A18',
+                            reddish: '#5B2624',
+                            gold: '#D6B573',
+                            gold_light: '#EED9A3',
+                            cream: '#F3EFE6',
+                            text_gray: '#A89F9E'
+                        }
+                    },
+                    fontFamily: {
+                        // ตั้งค่าให้ Tailwind รู้จัก Font ใหม่
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Kanit', 'sans-serif'], 
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        .btn-gold {
+            background: linear-gradient(135deg, #D6B573 0%, #B89247 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px -10px rgba(214, 181, 115, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-brand-cream font-sans text-brand-dark antialiased overflow-x-hidden">
+
+    <nav class="w-full bg-brand-dark py-4 px-6 text-center shadow-lg border-b border-brand-gold/20">
+        <div class="font-serif text-3xl tracking-[0.2em] text-brand-gold font-medium">
+            LUMÉ
+        </div>
+        <div class="text-[10px] text-white/70 tracking-widest uppercase">Jewelry</div>
+    </nav>
+
+    <section class="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
+        <img src="ChatGPT Image 2 มี.ค. 2569 15_12_06_0.png" alt="Lume Jewelry Background" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-brand-dark/70"></div> 
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
+            <span class="text-brand-gold_light text-sm tracking-[0.3em] mb-4">SEMPITILE COLLECTION</span>
+            <h1 class="font-serif text-4xl md:text-6xl text-brand-gold mb-6 leading-tight font-semibold">
+                สะกดทุกสายตา ด้วยความงาม<br>ที่เหนือกาลเวลา
+            </h1>
+            <p class="text-white/90 text-lg md:text-xl font-light mb-10 max-w-2xl">
+                มอบของขวัญที่ล้ำค่าที่สุดให้คนที่คุณรัก หรือเป็นรางวัลแห่งความสำเร็จให้ตัวคุณเอง ด้วยเครื่องประดับเกรดพรีเมียมจาก LUMÉ 
+            </p>
+            <a href="#products" class="btn-gold text-brand-darker font-medium px-10 py-4 rounded-full text-lg tracking-wide inline-block shadow-lg">
+                ดูคอลเลกชันและสั่งซื้อ <i class="fa-solid fa-arrow-down ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-serif text-3xl md:text-4xl text-brand-dark mb-6 font-semibold">Why Choose LUMÉ?</h2>
+            <p class="text-gray-600 mb-12 text-lg">เพราะเราเข้าใจว่าทุก "ความทรงจำ" มีค่า... เราจึงรังสรรค์เครื่องประดับที่ใส่ใจในทุกรายละเอียด</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 border border-brand-gold/20 rounded-xl hover:shadow-xl transition-shadow bg-brand-cream/30">
+                    <i class="fa-regular fa-gem text-4xl text-brand-gold mb-4"></i>
+                    <h3 class="text-xl font-medium mb-2 font-serif">Premium Quality</h3>
+                    <p class="text-gray-600 text-sm font-light">คัดสรรอัญมณีและวัสดุเกรดพรีเมียม เปล่งประกายยาวนาน ไม่ลอก ไม่ดำ</p>
+                </div>
+                <div class="p-6 border border-brand-gold/20 rounded-xl hover:shadow-xl transition-shadow bg-brand-cream/30">
+                    <i class="fa-solid fa-wand-magic-sparkles text-4xl text-brand-gold mb-4"></i>
+                    <h3 class="text-xl font-medium mb-2 font-serif">Timeless Design</h3>
+                    <p class="text-gray-600 text-sm font-light">ออกแบบอย่างพิถีพิถัน สวยหรู ดูแพง สามารถสวมใส่ได้ทุกโอกาสสำคัญ</p>
+                </div>
+                <div class="p-6 border border-brand-gold/20 rounded-xl hover:shadow-xl transition-shadow bg-brand-cream/30">
+                    <i class="fa-solid fa-gift text-4xl text-brand-gold mb-4"></i>
+                    <h3 class="text-xl font-medium mb-2 font-serif">Perfect Gift</h3>
+                    <p class="text-gray-600 text-sm font-light">มาพร้อมกล่องของขวัญสุดหรู พร้อมมอบเป็นของขวัญชิ้นพิเศษได้ทันที</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 px-6 bg-brand-cream">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-4xl md:text-5xl text-brand-dark mb-4 font-semibold">Exclusive Collection</h2>
+                <p class="text-brand-reddish text-lg">เลือกชิ้นที่ใช่... เพื่อคนที่คุณรัก (สินค้ามีจำนวนจำกัด)</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all border border-gray-100 flex flex-col h-full">
+                    <div class="aspect-square bg-gray-50 rounded-lg flex items-center justify-center p-4 mb-4">
+                        <img src="ภาพถ่ายหน้าจอ 2569-03-02 เวลา 15.32.27_0.png" alt="Solis Ring" class="w-full h-full object-contain mix-blend-multiply">
+                    </div>
+                    <h3 class="font-medium text-lg text-brand-dark mb-1 font-serif">Solis Solitaire Ring</h3>
+                    <p class="text-sm text-gray-500 mb-2 font-light">แหวนเพชรเม็ดเดี่ยว ดีไซน์คลาสสิก</p>
+                    <div class="mt-auto">
+                        <p class="text-xl font-semibold text-brand-reddish mb-3">฿3,090</p>
+                        <a href="#cta" class="block text-center bg-brand-dark text-white py-2 rounded-lg hover:bg-brand-reddish transition-colors">สั่งซื้อชิ้นนี้</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all border border-gray-100 flex flex-col h-full">
+                    <div class="aspect-square bg-gray-50 rounded-lg flex items-center justify-center p-4 mb-4">
+                        <img src="ภาพถ่ายหน้าจอ 2569-03-02 เวลา 15.26.53_0.png" alt="Halo Circle Necklace" class="w-full h-full object-contain mix-blend-multiply">
+                    </div>
+                    <h3 class="font-medium text-lg text-brand-dark mb-1 font-serif">Halo Circle Necklace</h3>
+                    <p class="text-sm text-gray-500 mb-2 font-light">สร้อยคอจี้เพชรวงกลม สื่อถึงรักนิรันดร์</p>
+                    <div class="mt-auto">
+                        <p class="text-xl font-semibold text-brand-reddish mb-3">฿2,590</p>
+                        <a href="#cta" class="block text-center bg-brand-dark text-white py-2 rounded-lg hover:bg-brand-reddish transition-colors">สั่งซื้อชิ้นนี้</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all border border-gray-100 flex flex-col h-full relative">
+                    <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full z-10 font-light">Best Seller</span>
+                    <div class="aspect-square bg-gray-50 rounded-lg flex items-center justify-center p-4 mb-4">
+                        <img src="ภาพถ่ายหน้าจอ 2569-03-02 เวลา 15.32.52_0.png" alt="Vintage Ruby Ring" class="w-full h-full object-contain mix-blend-multiply">
+                    </div>
+                    <h3 class="font-medium text-lg text-brand-dark mb-1 font-serif">Vintage Ruby Ring</h3>
+                    <p class="text-sm text-gray-500 mb-2 font-light">แหวนพลอยทับทิม ลายสลักวินเทจ</p>
+                    <div class="mt-auto">
+                        <p class="text-xl font-semibold text-brand-reddish mb-3">฿3,590</p>
+                        <a href="#cta" class="block text-center bg-brand-dark text-white py-2 rounded-lg hover:bg-brand-reddish transition-colors">สั่งซื้อชิ้นนี้</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all border border-gray-100 flex flex-col h-full">
+                    <div class="aspect-square bg-gray-50 rounded-lg flex items-center justify-center p-4 mb-4">
+                        <img src="ภาพถ่ายหน้าจอ 2569-03-02 เวลา 15.21.39_0.png" alt="Duet Band" class="w-full h-full object-contain mix-blend-multiply">
+                    </div>
+                    <h3 class="font-medium text-lg text-brand-dark mb-1 font-serif">Duet Diamond Band</h3>
+                    <p class="text-sm text-gray-500 mb-2 font-light">แหวนเพชรแถวคู่ เรียบหรู ใส่ได้ทุกวัน</p>
+                    <div class="mt-auto">
+                        <p class="text-xl font-semibold text-brand-reddish mb-3">฿2,790</p>
+                        <a href="#cta" class="block text-center bg-brand-dark text-white py-2 rounded-lg hover:bg-brand-reddish transition-colors">สั่งซื้อชิ้นนี้</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-24 px-6 bg-brand-dark text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: url('ChatGPT Image 2 มี.ค. 2569 15_12_06_0.png'); background-size: cover; background-position: center;"></div>
+        <div class="relative z-10 max-w-3xl mx-auto bg-brand-darker/80 backdrop-blur-md p-10 md:p-14 rounded-2xl border border-brand-gold/30 shadow-2xl">
+            <h2 class="font-serif text-3xl md:text-4xl text-brand-gold mb-4 font-semibold">
+                SPECIAL OFFER!
+            </h2>
+            <p class="text-white text-xl md:text-2xl mb-2 font-light">
+                สั่งซื้อวันนี้ รับส่วนลดทันที <span class="text-brand-gold font-bold text-3xl">20%</span> 
+            </p>
+            <p class="text-gray-300 mb-8 font-light">
+                + จัดส่งฟรี EMS ทั่วประเทศ พร้อมกล่องของขวัญ Premium ทุกออเดอร์
+            </p>
+            
+            <a href="https://line.me/ti/p/your_line_id" class="btn-gold text-brand-darker font-medium px-12 py-5 rounded-full text-xl block md:inline-block w-full md:w-auto shadow-[0_0_20px_rgba(214,181,115,0.4)]">
+                <i class="fa-brands fa-line mr-2 text-2xl align-middle"></i> สั่งซื้อผ่านแอดมิน LINE
+            </a>
+            
+            <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-brand-gold_light font-light">
+                <div class="flex items-center"><i class="fa-solid fa-shield-halved mr-2"></i> รับประกันสินค้า 1 ปี</div>
+                <div class="flex items-center"><i class="fa-solid fa-box mr-2"></i> แพ็คเกจของขวัญสุดหรู</div>
+                <div class="flex items-center"><i class="fa-solid fa-truck-fast mr-2"></i> จัดส่งรวดเร็ว ปลอดภัย</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#231513] text-center py-8 border-t border-brand-gold/10">
+        <div class="font-serif text-2xl tracking-[0.2em] text-brand-cream/80 mb-2">LUMÉ</div>
+        <p class="text-xs text-white/40 mb-4 font-light">© 2026 LUMÉ Jewelry. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
